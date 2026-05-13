@@ -118,4 +118,4 @@ if __name__ == "__main__":
     # - host 127.0.0.1 => solo accesible localmente
     # - port 5000 => puerto típico de Flask
     # - debug True => recarga automática y trazas de error (NO usar en producción)
-    app.run(host="0.0.0.0", port=5001, debug=True)
+    app.run(host="0.0.0.0", port=5001, debug=False)
